@@ -19,4 +19,5 @@ jobs:
       release_type: 'regular'
       stage: 'integration'
       target_branch: ${{ inputs.branch || 'master' }}
+      extra_packages: 'default-libmysqlclient-dev'
     secrets: inherit
