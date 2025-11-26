@@ -30,4 +30,5 @@ jobs:
       next_version: ${{ inputs.version }}
       stage: production
       target_branch: ${{ inputs.target_branch }}
+      extra_packages: 'default-libmysqlclient-dev'
     secrets: inherit
